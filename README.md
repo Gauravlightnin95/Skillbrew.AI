@@ -1,4 +1,4 @@
-# 🎯 Skillbrew.AI v2 — Interview Behavioral Analytics
+# 🎯 Skillbrew.AI — Interview Behavioral Analytics
 ### AI-PS-4 | Hackathon Submission
 
 > Real-time multimodal behavioral trait extraction from interview video.  
@@ -29,10 +29,10 @@ Skillbrew.AI processes live webcam video to extract **10 facial features** and s
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
-skillbrew_v2/
+Skillbrew.AI/
 ├── app.py                    ← Flask + SocketIO API server  (ENTRY POINT)
 ├── train_model.py            ← Download FER2013 + train multi-trait RF
 ├── requirements.txt
@@ -62,7 +62,7 @@ skillbrew_v2/
 
 ---
 
-## ⚡ Quick Start (Windows)
+##  Quick Start (Windows)
 
 ### Step 1 — Install everything
 ```
@@ -88,11 +88,11 @@ python train_model.py            # ~5–10 min, downloads FER2013 ~60MB
 ```powershell
 python app.py
 ```
-Open **http://127.0.0.1:5000** in your browser → click **▶ Start**.
+Open **Link in Terminal** in your browser → click **▶ Start**.
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 Browser (WebSocket) ←──────────────────────────────────────────┐
